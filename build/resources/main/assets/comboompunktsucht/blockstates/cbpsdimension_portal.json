@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "comboompunktsucht:block/cbpsdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "comboompunktsucht:block/cbpsdimension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "1": {
+      "item": "comboompunktsucht:cbpsgem"
+    }
+  },
+  "result": {
+    "item": "comboompunktsucht:cbps_gemrod",
+    "count": 4
+  }
+}

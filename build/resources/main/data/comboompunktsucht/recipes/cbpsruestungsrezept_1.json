@@ -1,0 +1,26 @@
+{
+  "group": "cbpsruestungsrezept",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "2": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "3": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "5": {
+      "item": "comboompunktsucht:cbpsgem"
+    }
+  },
+  "result": {
+    "item": "comboompunktsucht:cpbsopruestung_boots",
+    "count": 1
+  }
+}

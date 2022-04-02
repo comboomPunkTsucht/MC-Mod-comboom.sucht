@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "1": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "2": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "3": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "4": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "5": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "6": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "7": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "8": {
+      "item": "comboompunktsucht:cbpsgem"
+    }
+  },
+  "result": {
+    "item": "comboompunktsucht:cbpsgemblock",
+    "count": 1
+  }
+}

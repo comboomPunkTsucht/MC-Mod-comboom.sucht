@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 100,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "comboompunktsucht:cbpsgemore"
+  },
+  "result": {
+    "item": "comboompunktsucht:cbpsgem"
+  }
+}

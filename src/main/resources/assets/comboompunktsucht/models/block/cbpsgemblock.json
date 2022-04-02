@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "comboompunktsucht:blocks/cpbsgemblock",
+    "up": "comboompunktsucht:blocks/cpbsgemblock",
+    "north": "comboompunktsucht:blocks/cpbsgemblock",
+    "east": "comboompunktsucht:blocks/cpbsgemblock",
+    "south": "comboompunktsucht:blocks/cpbsgemblock",
+    "west": "comboompunktsucht:blocks/cpbsgemblock",
+    "particle": "comboompunktsucht:blocks/cpbsgemblock"
+  }
+}

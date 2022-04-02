@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "comboompunktsucht:cbpsgem"
+    },
+    "2": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "comboompunktsucht:cbpsdimension",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "cbpsruestungsrezept",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cbpsgem"
+      },
+      {
+        "value": "CUSTOM:Cbpsgem"
+      },
+      {
+        "value": "CUSTOM:Cbpsgem"
+      },
+      {
+        "value": "CUSTOM:Cbpsgem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cbpsgem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cpbsopruestung.helmet"
+    },
+    "name": "cbpsruestungsrezept_4",
+    "namespace": "mod"
+  }
+}

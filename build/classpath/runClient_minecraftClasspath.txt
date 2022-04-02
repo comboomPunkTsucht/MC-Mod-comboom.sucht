@@ -1,4 +1,4 @@
-C:\Users\mcpeaps_HD\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.1.1_mapped_official_1.17.1\forge-1.17.1-37.1.1_mapped_official_1.17.1-recomp.jar
+Z:\Minecraftmod\MC-Mod-comboom.sucht\build\fg_cache\net\minecraftforge\forge\1.17.1-37.1.1_mapped_official_1.17.1\forge-1.17.1-37.1.1_mapped_official_1.17.1.jar
 C:\Users\mcpeaps_HD\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.17.1\client-extra.jar
 C:\Users\mcpeaps_HD\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
 C:\Users\mcpeaps_HD\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar

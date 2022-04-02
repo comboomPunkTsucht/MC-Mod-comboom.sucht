@@ -1,0 +1,233 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cpbscreativetab",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbscreativetab"
+    },
+    {
+      "name": "CpbsmcpeapsHD",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsmcpeaps_hd"
+    },
+    {
+      "name": "Cbpsopsword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsopsword"
+    },
+    {
+      "name": "CpbsopruestungTickEreignis",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsopruestung_tick_ereignis",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cpbsopruestung",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsopruestung",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cbpsgem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgem"
+    },
+    {
+      "name": "CbpsgemWennEinGegenstandHergestelltOderGeschmolzenWurde",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgem_wenn_ein_gegenstand_hergestellt_oder_geschmolzen_wurde",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cbpsgemore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemore"
+    },
+    {
+      "name": "Cbpsbiome",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsbiome"
+    },
+    {
+      "name": "Cbpsgemsmelting",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemsmelting"
+    },
+    {
+      "name": "Cbpsruestungsrezept1",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_1"
+    },
+    {
+      "name": "Cbpsruestungsrezept2",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_2"
+    },
+    {
+      "name": "Cbpsruestungsrezept3",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_3"
+    },
+    {
+      "name": "Cbpsruestungsrezept4",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_4"
+    },
+    {
+      "name": "CbpsGemrod",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbps_gemrod"
+    },
+    {
+      "name": "Cbpsgemrodrezept",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemrodrezept"
+    },
+    {
+      "name": "Cbpsswordrezept",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsswordrezept"
+    },
+    {
+      "name": "Cbpsdimension",
+      "type": "dimension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsdimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Cpbsigniter",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsigniter"
+    },
+    {
+      "name": "Cbpsgemblock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemblock"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.comboompunktsucht.cpbsopruestung_leggings": "comboom.such OP Leggings",
+      "item.comboompunktsucht.cbpsgem": "comboom.sucht Gem",
+      "biome.comboompunktsucht.cbpsbiome": "Cbpsbiome",
+      "block.comboompunktsucht.cbpsgemblock": "Cbpsgemblock",
+      "item.comboompunktsucht.cpbsopruestung_chestplate": "comboom.such OP Chestplate",
+      "item.comboompunktsucht.cbpsdimension": "comboom.sucht Dimensional Portal Igniter",
+      "item.comboompunktsucht.cpbsmcpeaps_hd_spawn_egg": "mcpeaps_HD Spawn Egg",
+      "item.comboompunktsucht.cbpsopsword": "comboom.sucht OP Sword",
+      "item.comboompunktsucht.cpbsopruestung_boots": "comboom.such OP Boots",
+      "item.comboompunktsucht.cpbsopruestung_helmet": "comboom.such OP Helmet",
+      "itemGroup.tabcpbscreativetab": "comboom.sucht",
+      "item.comboompunktsucht.cbps_gemrod": "comboom.sucht Gem Rod",
+      "block.comboompunktsucht.cbpsgemore": "comboom.sucht Gem Ore",
+      "entity.comboompunktsucht.cpbsmcpeaps_hd": "mcpeaps_HD"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "comboompunktsucht",
+    "modName": "comboom.sucht",
+    "version": "0.0.1",
+    "author": "mcpeaps_HD",
+    "websiteURL": "https://bit.ly/comboomPunkTsucht",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "image",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "comboom.sucht",
+    "modElementsPackage": "net.mcreator.comboompunktsucht",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "darksaber",
+    "customModelName": "model:default",
+    "name": "comboom.sucht OP Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Cpbscreativetab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 100,
+    "efficiency": 1.0,
+    "attackSpeed": 0.2,
+    "enchantability": 2,
+    "damageVsEntity": 100000.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cbpsgem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "comboompunktsucht:custom/model",
+  "textures": {
+    "0": "comboompunktsucht:blocks/darksaber",
+    "particle": "comboompunktsucht:items/darksaber"
+  }
+}

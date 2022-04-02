@@ -1,0 +1,70 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "empty_armor_slot_helmet",
+    "enableBody": true,
+    "textureBody": "empty_armor_slot_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "empty_armor_slot_leggings",
+    "enableBoots": true,
+    "textureBoots": "empty_armor_slot_boots",
+    "onHelmetTick": {
+      "name": "CpbsopruestungTickEreignis"
+    },
+    "onBodyTick": {
+      "name": "CpbsopruestungTickEreignis"
+    },
+    "onLeggingsTick": {
+      "name": "CpbsopruestungTickEreignis"
+    },
+    "onBootsTick": {
+      "name": "CpbsopruestungTickEreignis"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Cpbscreativetab"
+    },
+    "armorTextureFile": "gfhjk",
+    "helmetName": "comboom.such OP Helmet",
+    "bodyName": "comboom.such OP Chestplate",
+    "leggingsName": "comboom.such OP Leggings",
+    "bootsName": "comboom.such OP Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelsteve",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "4b64a973ed5c027b.png",
+    "bodyModelName": "Modelsteve",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "4b64a973ed5c027b.png",
+    "leggingsModelName": "Modelsteve",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "4b64a973ed5c027b.png",
+    "bootsModelName": "Modelsteve",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "gfhjk_layer_1.png",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 1000,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 1,
+    "toughness": 9.0,
+    "knockbackResistance": 3.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": []
+  }
+}
