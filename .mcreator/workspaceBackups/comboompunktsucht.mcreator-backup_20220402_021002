@@ -3,7 +3,7 @@
     {
       "name": "Cpbscreativetab",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbscreativetab"
@@ -11,7 +11,7 @@
     {
       "name": "CpbsmcpeapsHD",
       "type": "livingentity",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsmcpeaps_hd"
@@ -19,7 +19,7 @@
     {
       "name": "Cbpsopsword",
       "type": "tool",
-      "sortid": 1,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsopsword"
@@ -27,7 +27,7 @@
     {
       "name": "CpbsopruestungTickEreignis",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsopruestung_tick_ereignis",
@@ -43,7 +43,7 @@
     {
       "name": "Cpbsopruestung",
       "type": "armor",
-      "sortid": 2,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsopruestung",
@@ -57,7 +57,7 @@
     {
       "name": "Cbpsgem",
       "type": "item",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgem"
@@ -65,7 +65,7 @@
     {
       "name": "CbpsgemWennEinGegenstandHergestelltOderGeschmolzenWurde",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgem_wenn_ein_gegenstand_hergestellt_oder_geschmolzen_wurde",
@@ -81,7 +81,7 @@
     {
       "name": "Cbpsgemore",
       "type": "block",
-      "sortid": 8,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgemore"
@@ -89,42 +89,109 @@
     {
       "name": "Cbpsbiome",
       "type": "biome",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsbiome"
     },
     {
-      "name": "CpbsmcpeapsHDNaturlicheObjektEntstehungsbedingung",
-      "type": "procedure",
-      "sortid": 10,
+      "name": "Cbpsgemsmelting",
+      "type": "recipe",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cpbsmcpeaps_hd_naturliche_objekt_entstehungsbedingung",
+      "registry_name": "cbpsgemsmelting"
+    },
+    {
+      "name": "Cbpsruestungsrezept1",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_1"
+    },
+    {
+      "name": "Cbpsruestungsrezept2",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_2"
+    },
+    {
+      "name": "Cbpsruestungsrezept3",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_3"
+    },
+    {
+      "name": "Cbpsruestungsrezept4",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsruestungsrezept_4"
+    },
+    {
+      "name": "CbpsGemrod",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbps_gemrod"
+    },
+    {
+      "name": "Cbpsgemrodrezept",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemrodrezept"
+    },
+    {
+      "name": "Cbpsswordrezept",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsswordrezept"
+    },
+    {
+      "name": "Cbpsdimension",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsdimension",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "ep": true
       }
+    },
+    {
+      "name": "Cpbsigniter",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsigniter"
+    },
+    {
+      "name": "Cbpsgemblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemblock"
+    },
+    {
+      "name": "Cbpsgemblockrezept",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemblockrezept"
     }
   ],
   "variable_elements": [],
@@ -134,12 +201,15 @@
       "item.comboompunktsucht.cpbsopruestung_leggings": "comboom.such OP Leggings",
       "item.comboompunktsucht.cbpsgem": "comboom.sucht Gem",
       "biome.comboompunktsucht.cbpsbiome": "Cbpsbiome",
-      "itemGroup.tabcpbscreativetab": "comboom.sucht",
+      "block.comboompunktsucht.cbpsgemblock": "Cbpsgemblock",
       "item.comboompunktsucht.cpbsopruestung_chestplate": "comboom.such OP Chestplate",
+      "item.comboompunktsucht.cbpsdimension": "comboom.sucht Dimensional Portal Igniter",
       "item.comboompunktsucht.cpbsmcpeaps_hd_spawn_egg": "mcpeaps_HD Spawn Egg",
       "item.comboompunktsucht.cbpsopsword": "comboom.sucht OP Sword",
       "item.comboompunktsucht.cpbsopruestung_boots": "comboom.such OP Boots",
       "item.comboompunktsucht.cpbsopruestung_helmet": "comboom.such OP Helmet",
+      "itemGroup.tabcpbscreativetab": "comboom.sucht",
+      "item.comboompunktsucht.cbps_gemrod": "comboom.sucht Gem Rod",
       "block.comboompunktsucht.cbpsgemore": "comboom.sucht Gem Ore",
       "entity.comboompunktsucht.cpbsmcpeaps_hd": "mcpeaps_HD"
     }
