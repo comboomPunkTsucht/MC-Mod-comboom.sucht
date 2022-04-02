@@ -15,31 +15,31 @@ public class CpbsopruestungTickEreignisProcedure {
 			_player.onUpdateAbilities();
 		}
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 60, 2));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 320, 2));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 320, 255));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 255));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 320, 255));
 		if (entity instanceof Player _player) {
 			_player.getAbilities().invulnerable = (true);
 			_player.onUpdateAbilities();

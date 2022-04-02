@@ -24,6 +24,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.comboompunktsucht.procedures.CpbsopruestungTickEreignisProcedure;
 import net.mcreator.comboompunktsucht.init.ComboompunktsuchtModTabs;
+import net.mcreator.comboompunktsucht.init.ComboompunktsuchtModItems;
 import net.mcreator.comboompunktsucht.client.model.Modelsteve;
 
 import java.util.Map;
@@ -34,12 +35,12 @@ public abstract class CpbsopruestungItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 1000;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 1024;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{0, 0, 0, 0}[slot.getIndex()];
 			}
 
 			@Override
@@ -54,7 +55,7 @@ public abstract class CpbsopruestungItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(ComboompunktsuchtModItems.CBPSGEM));
 			}
 
 			@Override
@@ -64,12 +65,12 @@ public abstract class CpbsopruestungItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 9f;
+				return 10f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 3f;
+				return 5f;
 			}
 		}, slot, properties);
 	}

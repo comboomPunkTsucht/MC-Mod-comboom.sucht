@@ -3,7 +3,7 @@
     {
       "name": "Cpbscreativetab",
       "type": "tab",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbscreativetab"
@@ -11,7 +11,7 @@
     {
       "name": "CpbsmcpeapsHD",
       "type": "livingentity",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsmcpeaps_hd"
@@ -19,7 +19,7 @@
     {
       "name": "Cbpsopsword",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsopsword"
@@ -27,7 +27,7 @@
     {
       "name": "CpbsopruestungTickEreignis",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsopruestung_tick_ereignis",
@@ -43,7 +43,7 @@
     {
       "name": "Cpbsopruestung",
       "type": "armor",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cpbsopruestung",
@@ -57,7 +57,7 @@
     {
       "name": "Cbpsgem",
       "type": "item",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgem"
@@ -65,7 +65,7 @@
     {
       "name": "CbpsgemWennEinGegenstandHergestelltOderGeschmolzenWurde",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgem_wenn_ein_gegenstand_hergestellt_oder_geschmolzen_wurde",
@@ -89,7 +89,7 @@
     {
       "name": "Cbpsbiome",
       "type": "biome",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsbiome"
@@ -97,7 +97,7 @@
     {
       "name": "Cbpsgemsmelting",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgemsmelting"
@@ -105,7 +105,7 @@
     {
       "name": "Cbpsruestungsrezept1",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsruestungsrezept_1"
@@ -113,7 +113,7 @@
     {
       "name": "Cbpsruestungsrezept2",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsruestungsrezept_2"
@@ -121,7 +121,7 @@
     {
       "name": "Cbpsruestungsrezept3",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsruestungsrezept_3"
@@ -129,7 +129,7 @@
     {
       "name": "Cbpsruestungsrezept4",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsruestungsrezept_4"
@@ -137,7 +137,7 @@
     {
       "name": "CbpsGemrod",
       "type": "item",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbps_gemrod"
@@ -145,7 +145,7 @@
     {
       "name": "Cbpsgemrodrezept",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsgemrodrezept"
@@ -153,7 +153,7 @@
     {
       "name": "Cbpsswordrezept",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsswordrezept"
@@ -161,13 +161,37 @@
     {
       "name": "Cbpsdimension",
       "type": "dimension",
-      "sortid": 18,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cbpsdimension",
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "Cpbsigniter",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpbsigniter"
+    },
+    {
+      "name": "Cbpsgemblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemblock"
+    },
+    {
+      "name": "Cbpsgemblockrezept",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbpsgemblockrezept"
     }
   ],
   "variable_elements": [],
@@ -177,6 +201,7 @@
       "item.comboompunktsucht.cpbsopruestung_leggings": "comboom.such OP Leggings",
       "item.comboompunktsucht.cbpsgem": "comboom.sucht Gem",
       "biome.comboompunktsucht.cbpsbiome": "Cbpsbiome",
+      "block.comboompunktsucht.cbpsgemblock": "Block of comboom.sucht",
       "item.comboompunktsucht.cpbsopruestung_chestplate": "comboom.such OP Chestplate",
       "item.comboompunktsucht.cbpsdimension": "comboom.sucht Dimensional Portal Igniter",
       "item.comboompunktsucht.cpbsmcpeaps_hd_spawn_egg": "mcpeaps_HD Spawn Egg",

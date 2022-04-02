@@ -54,17 +54,21 @@
     "bodyImmuneToFire": true,
     "leggingsImmuneToFire": true,
     "bootsImmuneToFire": true,
-    "maxDamage": 1000,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "maxDamage": 1024,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
     "enchantability": 1,
-    "toughness": 9.0,
-    "knockbackResistance": 3.0,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
     "equipSound": {
       "value": "item.armor.equip_netherite"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cbpsgem"
+      }
+    ]
   }
 }
